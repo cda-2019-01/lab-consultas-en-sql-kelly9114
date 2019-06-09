@@ -5,3 +5,4 @@
 ##
 
 
+Select * from tbl2  WHERE c21 in (Select min(c21) from tbl2)
